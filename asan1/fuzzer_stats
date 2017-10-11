@@ -1,0 +1,27 @@
+start_time        : 1507477999
+last_update       : 1507738240
+fuzzer_pid        : 6409
+cycles_done       : 100
+execs_done        : 7284607
+execs_per_sec     : 31.11
+paths_total       : 1644
+paths_favored     : 164
+paths_found       : 124
+paths_imported    : 1240
+max_depth         : 3
+cur_path          : 1222
+pending_favs      : 0
+pending_total     : 4
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 9.31%
+unique_crashes    : 54
+unique_hangs      : 0
+last_path         : 1507734554
+last_crash        : 1507738052
+last_hang         : 0
+execs_since_crash : 4966
+exec_timeout      : 200
+afl_banner        : asan1
+afl_version       : 2.51b
+command_line      : /home/bperry/afl/afl-2.51b/afl-fuzz -i new_tests/ -o exr_sync -m none -S asan1 -- /home/bperry/afl/FFmpeg-master-asan/ffmpeg -f exr_pipe -i @@
